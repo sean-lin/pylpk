@@ -35,4 +35,12 @@ AuthorizedKeysCommand /your/path/to/pylpk.py
 ```
 You may add AuthorizedKeysCommandUser.
 
+Test
+-----
+After setup, Run the program to test your config
+```
+./pylpk.py username
+```
+If the username is correct and his public key was set, the public key would be printed.
+
 __Enjoy It!__
