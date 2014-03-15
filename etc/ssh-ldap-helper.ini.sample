@@ -1,0 +1,7 @@
+[LDAP]
+host = localhost 
+port = 389
+base = ou=user,dc=localhost
+auth_user = cn=admin,dc=localhost
+auth_passwd = my_passwd 
+ssh_public_key = sshPublicKey
