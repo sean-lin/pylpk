@@ -11,7 +11,7 @@ def get_option():
     usage = "usage: %prog [options] user"
     parser = optparse.OptionParser(usage = usage)
     parser.add_option('-f', '--config', dest='config',
-            help = 'config filename', metavar='FILE', default='/etc/ssh-ldap-helper.ini')
+            help = 'config filename', metavar='FILE', default='/etc/pylpk.ini')
     opt, args = parser.parse_args()
     if len(args) != 1:
         parser.print_help()
